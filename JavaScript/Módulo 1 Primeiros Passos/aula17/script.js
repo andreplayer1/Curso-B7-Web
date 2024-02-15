@@ -1,0 +1,1 @@
+/*if nada mais é do que um validador de boolean. A função do if é retornar verdadeiro(true) ou falso (false)*/
