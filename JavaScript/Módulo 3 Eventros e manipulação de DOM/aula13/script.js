@@ -10,6 +10,7 @@ function addItem() {
 function apertar(e) {
     if(e.key == 'Enter') {
         addItem();
+        input.value = '';
     }
 }
 
