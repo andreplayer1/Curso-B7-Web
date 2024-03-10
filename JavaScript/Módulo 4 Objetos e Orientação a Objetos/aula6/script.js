@@ -21,9 +21,9 @@ class Person {
     }
 
     set age(x) {
-        if(typeof x == 'number') {
+        if (typeof x == 'number') {
         this._age = x;
-        }
+    }
     }
 
 }
