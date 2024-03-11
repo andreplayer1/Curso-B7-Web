@@ -9,7 +9,7 @@ class Person {
     }
 
     static sayHi() {
-        console.log(`Oi`)
+        console.log(`Oi`);
     }
 
 }
