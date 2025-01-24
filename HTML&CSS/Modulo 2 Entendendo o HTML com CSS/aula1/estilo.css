@@ -1,18 +1,30 @@
-h1 {
-    color: blue;
-    font-size: 15px;
+#titulo {
+    background-color: #F00;
+    width: 10%;
 }
 
-a {
-    color: green;
-    font-size: 30px;
+p {
+    border: 3px solid #999;
+    border-radius: 5px;
+    width: 10%;
+
+}
+
+button {
+    background-color: #999;
+    border: 5px outset #000;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 100%;
+    border: 7px solid #0faef8;
 }
 
 img {
-    width: 200px;
-}
-
-li {
-    font-weight: bold;
-    color: blueviolet;
+    border: 5px solid red;
+    border-radius: 30px;
+    overflow: hidden;
 }
