@@ -6,14 +6,18 @@ body {
     font-size: 17px;
 }
 
-.link {
-    color: green;
+p {
+    color: #0000ff;
     font-size: 30px;
+    font-weight: bold;
+    font-family: helvetica;
+    text-align: left;
 }
-.link:hover {
-    color: red;
-    font-size: 31px;
+
+a {
+    text-decoration: none;
 }
-.link:visited {
-    color: pink;
+
+a:hover {
+    text-decoration: underline;
 }
