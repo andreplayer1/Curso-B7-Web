@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
+    margin: 50px;
+    font-size: 17px;
 }
 
 .link {
