@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form method="POST" action="blablabla.php" enctype="multipart/form-data">
+    <form method="get" action="blablabla.php">
 
         <input type="hidden" name="country" value="BR">
 
@@ -17,15 +17,11 @@
             <legend>Dados pessoais</legend>
             <label>
                 Primeiro Nome: <br>
-                <input type="text" name="name" required>
+                <input type="text" name="name" required minlength="2" maxlength="6">
             </label><br>
             <label>
                 Sobrenome: <br>
                 <input type="text" name="lastname" required>
-            </label><br>
-            <label>
-                Foto: <br>
-                <input type="file" name="photo" accept="application/pdf">
             </label><br>
         </fieldset>
 
