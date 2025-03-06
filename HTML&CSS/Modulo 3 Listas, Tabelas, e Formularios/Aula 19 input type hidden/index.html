@@ -9,7 +9,10 @@
 </head>
 
 <body>
-    <form method="post" action="blablabla.php">
+    <form method="get" action="blablabla.php">
+
+        <input type="hidden" name="country" value="BR">
+
         <fieldset>
             <legend>Dados pessoais</legend>
             <label>
@@ -20,15 +23,6 @@
                 Sobrenome: <br>
                 <input type="text" name="lastname" required>
             </label><br>
-            <label>
-                E-mail: <br>
-                <input type="text" name="email" pattern="">
-            </label><br>
-        
-            <label>
-                Data de nascimento: <br>
-                <input type="date" name="birthdate" min="2021-06-14">
-            </label>
         </fieldset>
 
         <fieldset>
