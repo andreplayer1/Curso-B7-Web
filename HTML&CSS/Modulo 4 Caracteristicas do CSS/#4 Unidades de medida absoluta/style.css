@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 5cm;
+    height: 5cm;
+    background-color: #999;  
+}
