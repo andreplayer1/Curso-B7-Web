@@ -1,0 +1,12 @@
+body {
+    font-family: Georgia;
+}
+.box {
+    width: 300px;
+    background-color: #999;
+}
+.box-interno {
+    background-color: #333;
+    color: #FFF;
+    width: 15ch;
+}
