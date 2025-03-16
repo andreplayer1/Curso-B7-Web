@@ -3,9 +3,16 @@ body {
     color: #FFF;
 }
 
+table, td {
+    border: 2px solid black;
+}
+
 @media (min-width: 1000px) {
     body {
         background-color: #0000FF;
+    }
+    h1 {
+        font-size: 70px;
     }
 
 }
@@ -13,10 +20,33 @@ body {
     body {
         background-color: purple;
     }
+    h1 {
+        font-size: 50px;
+    }
 }
 
 @media (min-width:400px) and (max-width: 700px) {
     body {
         background-color: royalblue;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:300px) {
+    h1 {
+        font-size: 14px;
+    }
+}
+
+@media only print {
+    h1 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    table, td {
+        border: 0;
     }
 }
