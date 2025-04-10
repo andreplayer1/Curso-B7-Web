@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+#teste {
+    background-color: green;
+    margin: 30px;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 0px 10px 0px; /*O primeiro sempre será o Superior Esquerdo e segue no sentido horario.
+    Nesse exemplo estou colocando 10px de borda no canto superior esquerdo, e no inferior direito*/
+}
