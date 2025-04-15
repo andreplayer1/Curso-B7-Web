@@ -389,3 +389,118 @@ footer {
     line-height: 15px;
     color: #5c5c5c;
 }
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 35px 0px 45px 0px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+@media (max-width:600px) {
+    .column {
+        flex-direction: row;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #banner {
+        height: auto;
+    }
+    .banner_headline {
+        padding: 20px;
+        margin: 70px 0px;
+    }
+
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+
+    .banner_headline h2 {
+        font-size: 16px;
+    }
+
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+
+    #geral section,
+    #geral aside .widget_body,
+    #geral aside .widget_title{
+        padding: 20px;
+    }
+
+    .widget_body  article{
+        margin: 0;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+    }
+
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer_copy {
+        text-align: center;
+    }
+
+    header {
+        height: auto;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 120px; /* Define a distância do topo da página (altura do header) */
+        width: 100%;
+        background-color: #fff;
+        z-index: 20; /* Garante que fique acima do container (que tem z-index padrão de auto ou 0) */
+        display: none; /* Inicialmente escondido */
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 30; /* Garante que o ícone mobile fique acima do menu */
+    }
+}
+
+/*top: 120px; em nav ul: Assumindo que a altura do seu header é de 120px, 
+isso fará com que o menu dropdown comece logo abaixo do header, sobrepondo o
+ restante do conteúdo (incluindo o .container principal). Se a altura do seu 
+ header for diferente, ajuste esse valor.
+
+z-index: 20; em nav ul: O z-index controla a ordem de empilhamento de elemento
+s posicionados. Um valor maior significa que o elemento ficará na frente de elementos
+ com valores menores ou com o z-index padrão (auto ou 0). Ao definir um z-index alto para
+  o nav ul, você garante que ele se sobreponha ao .container que não tem um z-index explicitamente
+   definido (e, portanto, terá um valor menor).
+
+display: none; em nav ul (dentro da media query): Inicialmente, o menu mobile estará escondido. 
+Você precisará de JavaScript para alterar o display para block (ou flex, dependendo do seu layout 
+interno do menu) quando o ícone do .menuMobile for clicado.
+
+z-index: 30; em .menuMobile: É uma boa prática garantir que o ícone do 
+menu mobile (.menuMobile) tenha um z-index ainda maior para que ele sempre 
+fique visível acima do menu quando este estiver aberto.*/
