@@ -20,3 +20,12 @@
         color: gray;
         text-align: center;
     }
+
+    strong {
+        color: green;
+    }
+
+    em {
+        font-size: 17px;
+        color: red;
+    }
