@@ -1,0 +1,22 @@
+    body {
+        background-color: #f0f0f0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    header a {
+        color: #00f;
+        text-decoration: none;
+    }
+
+    footer {
+        border-top: 1px solid black;
+        color: gray;
+        text-align: center;
+    }
