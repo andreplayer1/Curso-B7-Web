@@ -10,9 +10,13 @@
         list-style: none;
     }
 
-    header a {
+    nav a {
         color: #00f;
         text-decoration: none;
+    }
+
+    nav a:hover {
+        color: rgb(107, 173, 7);
     }
 
     footer {
