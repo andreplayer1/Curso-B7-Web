@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+th {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 50px;
+}
